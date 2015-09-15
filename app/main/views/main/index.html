@@ -1,0 +1,16 @@
+<:Title>
+  Home
+
+<:Body>
+  <h1>Slacking with Montrealrb</h1>
+
+  <ul>
+    {{ store.messages.each do |message| }}
+    <li><strong>{{ message.user.name }}</strong>: {{ message.content }}</li>
+    {{ end }}
+  </ul>
+
+  <form e-submit="add_message">
+    <label>Type to chat:</label>
+    <input type="text" value="{{ page._new_message }}" />
+  </form>
