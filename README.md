@@ -4,6 +4,8 @@ Demo volt app for montrealrb meetup Sep 15th - Sample voltrb chat application
 
 See https://medium.com/product-dot-io/developer-happiness-with-volt-framework-150accdf6897 for more
 
+Slides at http://www.slideshare.net/mtw/a-first-look-volt-framework-live-demo-with-heri-montrealrb
+
 ## Setup
 
 Make sure you have ruby and mongodb installed in your system. Run:
