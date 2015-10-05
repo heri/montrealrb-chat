@@ -14,11 +14,7 @@ Make sure you have ruby and mongodb installed in your system. Run:
 
 `git clone git@github.com:heri/montrealrb-chat.git`
 
-`cd montrealrb-chat`
-
-To install the mongo gem and required components:
-
-`bundle install`
+`cd montrealrb-chat && bundle`
 
 To run the app:
 
@@ -31,7 +27,7 @@ You can now check it out on http://localhost:3000 :)
 The main page view is in app/main/views/main/index.html
 The controller is app/main/controllers/main_controller.rb
 
-You can try playing with the files or try adding channels. I would for example have:
+You can try try adding channels:
 
 ```
 <ul>
@@ -73,11 +69,20 @@ module Main
 end
 ```
 
-It will be up to you how to display the chats in a given message, now that you have a channel.
-
 
 ## Reference
 
 Docs for Volt are docs.voltframework.com/en/
 
-I highly recommend checking out the community on Gitter. @ryanstout and many others (+ @heri) are there
+I recommend checking out the community on Gitter. @ryanstout and many others (+ @heri) are there
+
+
+## Contact
+
+Heri
+
+* [Code on Github](http://github.com/heri)
+* [I write on Medium](http://medium.com/@heri)
+* [twitter](http://twitter.com/heri)
+* Photography [Instagram](https://instagram.com/heri_rakotomalala/) [500px](https://500px.com/heri)
+* [Background site](http://madmedia.ca)
